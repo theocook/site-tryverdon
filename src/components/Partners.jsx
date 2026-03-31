@@ -7,28 +7,28 @@ const Sponsors = () => {
   // pour qu'ils correspondent exactement à ce que vous avez dans le dossier /public
   const sponsorsData = {
     gold: { 
-      src: "../public/sponsors/logoConcepto.svg", // ou "/sponsor-gold.png"
+      src: "/sponsors/logoConcepto.svg", // ou "/sponsor-gold.png"
       alt: "Logo Sponsor Gold" 
     },
     silver: { 
-      src: "../public/sponsors/cavin-baudat-black.svg", // ou "/sponsor-silver.svg"
+      src: "/sponsors/cavin-baudat-black.svg", // ou "/sponsor-silver.svg"
       alt: "Logo Sponsor Silver" 
     },
     bronze: [
-      { id: 1, src: "../public/sponsors/logo-kamtecSA.png", alt: "Logo Sponsor Bronze Kamec" },
-      { id: 2, src: "../public/sponsors/la-dame-des-emotions.png", alt: "Logo Sponsor Bronze 2" },
-      { id: 3, src: "../public/sponsors/VO_logo.svg", alt: "Logo Sponsor Bronze 3" },
-      { id: 4, src: "../public/sponsors/j2o_logo.avif", alt: "Logo Sponsor Bronze 4" },
-      { id: 5, src: "../public/sponsors/logo-ERAIKI.png", alt: "Logo Sponsor Bronze 5" },
+      { id: 1, src: "/sponsors/logo-kamtecSA.png", alt: "Logo Sponsor Bronze Kamec" },
+      { id: 2, src: "/sponsors/la-dame-des-emotions.png", alt: "Logo Sponsor Bronze 2" },
+      { id: 3, src: "/sponsors/VO_logo.svg", alt: "Logo Sponsor Bronze 3" },
+      { id: 4, src: "/sponsors/j2o_logo.avif", alt: "Logo Sponsor Bronze 4" },
+      { id: 5, src: "/sponsors/logo-ERAIKI.png", alt: "Logo Sponsor Bronze 5" },
     ]
   };
 
   // 2. CONFIGURATION DES PARTENAIRES
   const partenairesData = [
-    { id: 1, src: "../public/partners/logo-red-y.svg", alt: "Logo Partenaire 1" },
-    { id: 2, src: "../public/partners/logo-sj.svg", alt: "Logo Partenaire 2" },
-    { id: 3, src: "../public/partners/logo-vo2.svg", alt: "Logo Partenaire 3" },
-    { id: 4, src: "../public/partners/logo-ylb.svg", alt: "Logo Partenaire 4" },
+    { id: 1, src: "/partners/logo-red-y.svg", alt: "Logo Partenaire 1" },
+    { id: 2, src: "/partners/logo-sj.svg", alt: "Logo Partenaire 2" },
+    { id: 3, src: "/partners/logo-vo2.svg", alt: "Logo Partenaire 3" },
+    { id: 4, src: "/partners/logo-ylb.svg", alt: "Logo Partenaire 4" },
   ];
 
   return (
