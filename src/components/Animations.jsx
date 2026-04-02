@@ -192,3 +192,8 @@ export const MagneticWrapper = ({ children, strength = 20, className = "" }) => 
     </div>
   );
 };
+
+
+
+
+

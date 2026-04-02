@@ -51,7 +51,7 @@ const Club = () => {
   ];
 
   const comite = [
-    { name: "Renaud de Pury", role: "Président", email: "president@tryverdon.ch" },
+    { name: "Edouard Burg", role: "Président", email: "president@tryverdon.ch" },
     { name: "Daniel Raffo", role: "Secrétaire", email: "daniel.raffo@outlook.com" },
     { name: "Didier Guignard", role: "Caissier", email: "caissier@tryverdon.ch" },
     { name: "Olivier Kratzer", role: "Communication", email: "media@tryverdon.ch" },
